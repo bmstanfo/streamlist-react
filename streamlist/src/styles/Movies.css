@@ -1,0 +1,13 @@
+/* src/styles/Movies.css */
+
+h1 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
