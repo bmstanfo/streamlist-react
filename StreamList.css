@@ -1,4 +1,4 @@
-/* src/styles/App.css */
+/* src/styles/StreamList.css */
 
 /* StreamList container */
 .streamlist-container {
@@ -75,9 +75,9 @@ ul {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Styling for the delete button */
-.delete-button {
-  background-color: #e74c3c;
+/* Styling for the complete button (green) */
+.complete-button {
+  background-color: #28a745;  /* Green color */
   color: white;
   padding: 6px 12px;
   font-size: 14px;
@@ -85,11 +85,48 @@ ul {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-left: 15px;  /* Added space between buttons */
+}
+
+/* Hover effect for the complete button */
+.complete-button:hover {
+  background-color: #218838;  /* Darker green on hover */
+}
+
+/* Styling for the edit button (yellow) */
+.edit-button {
+  background-color: #f39c12;  /* Yellow color */
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 15px;  /* Added space between buttons */
+}
+
+/* Hover effect for the edit button */
+.edit-button:hover {
+  background-color: #e67e22;  /* Darker yellow on hover */
+}
+
+/* Styling for the delete button (red) */
+.delete-button {
+  background-color: #e74c3c;  /* Red color */
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 15px;  /* Added space between buttons */
 }
 
 /* Hover effect for delete button */
 .delete-button:hover {
-  background-color: #c0392b;
+  background-color: #c0392b;  /* Darker red on hover */
 }
 
 /* Empty message */
